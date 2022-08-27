@@ -1,0 +1,68 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: san-serif;
+background: url(Service.jpg) ;
+background-size:cover;
+background-attachment:fixed;
+
+}
+.login_dialogue
+{
+width:380px;
+height:550px;
+background:rgba(0,0,0,0.5);
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform: translate(-50%,-50%);
+box-sizing:border-box;
+box-shadow: 0 15px 25px rgba(0,0,0.5);
+border-radius: 10px;
+padding:70px 30px;
+}
+
+//
+//
+.login_dialogue p{
+
+
+font-weight:bold;
+color:white;
+}
+.styling_text{
+margin: 8px 0;
+padding: 8px 0;
+width:280px;
+overflow:hidden;
+font-size: 20px;
+border-bottom: 1px solid blue;
+}
+
+
+.login_dialogue input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#1c8adb;
+width:90%;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+
+.login_dialogue a
+{
+ text-decoration:none;
+font-size:16px;
+color:#fff;
+
+}
+.login_dialogue a:hover
+{
+color:blue;
+}
+

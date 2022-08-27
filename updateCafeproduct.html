@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>CPUT</title>
+<link rel="stylesheet" type="text/css" href="ProfessionalServiceReg.css">
+</head>
+<body>
+
+<nav>
+<a href="./StaffProductDetails">STORE</a>
+</nav>
+<br>
+
+<div class="login_dialogue">
+
+ 
+<h2>update service</h2>
+
+<form action="./StaffUdateService" method="post" enctype="multipart/form-data">
+
+<p style="color:red">Item NO</p>
+<input type="text" name="itemNo" required> 
+
+
+<p>Product Name</p>
+<input type="text" name="name" required> 
+
+
+<p>Prize</p>
+<input type="text" name="prize" required pattern="[+-]?([0-9]+[.])?[0-9]*"> 
+
+
+<p>Location</p> 
+<input type="text" name="town" required><br>
+
+
+<p>Building</p>
+<input type="text" name="building" required> 
+
+
+<p>Building No</p>
+<input type="text" name="buildingNo" required pattern="[0-9]*">
+
+
+<p>Description</p>
+<textarea name="description"></textarea>
+
+<p>product picture</p>
+<input type="file" name="picture" required> 
+
+<input type="submit" value="Update" name="action"><br>
+
+
+</form>
+
+</div>
+
+</body>
+</html>

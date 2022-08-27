@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+body
+{
+margin:0;
+padding:0;
+font-family: sans-serif;
+background: url(Login.jpg);
+background-size:cover;
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+height:100vh;
+}
+nav{
+overflow:hidden;
+background:black;
+line-height:30px;
+}
+nav a
+{
+float:left;
+display:block;
+width:100px;
+text-align:center;
+padding:18px 20px;
+text-decoration:none;
+font-size:16px;
+text-transform:uppercase;
+font-weight:700;
+color:#fff;
+
+}
+nav a:hover{
+background:#ddd;
+color:#000;
+}
+
+table{
+width:750px;
+margin:auto;
+background:white;
+}
+
+td{
+border-right:1px solid blue;
+border-bottom:4px solid black;
+background:black;
+padding:3px 12px 6px 6px;
+color:#4f6b72;
+
+}
+img
+{
+width:300px;
+height:200px;
+border-radius:10%;
+}
+/*form input[type="file"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#1c8adb;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}*/
+ form input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#1c8adb;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+ 
+

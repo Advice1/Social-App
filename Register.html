@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+<link rel="stylesheet" type="text/css" href="RegisterStyle.css">
+</head>
+<body>
+<div class="login">
+
+<h1>REGISTRATION FORM</h1>
+
+<form action="./Login_Register_Poccessor" method="post" enctype="multipart/form-data">
+<p>Name</p> 
+<input type="text" placeholder="Type here" name="name" required pattern="[A-Za-z]+"> 
+<p>Surname</p> 
+<input type="text" placeholder="Type here" name="surname" required pattern="[A-Za-z]+">
+<p>student number</p> 
+<input type="text" placeholder="Number" name="STUDENT_NUMBER" required pattern="[0-9]{9}">
+<p>password</p> 
+<input type="password" placeholder="Strong password" name="password" required>
+
+Department <select name="deparment" required>
+      <option>Engineering</option>
+      <option>Humanities</option>
+      <option>Science</option>
+      <option>Education</option>
+      <option>Business</option>
+      </select><br>
+
+<!--<textarea name="message"></textarea><br>-->
+<input type="submit" name="action" value="Register"><br>
+<!--<a href="#">forgot password</a> -->
+<input type="reset"><br>
+<div class="ima">profile picture<input type="file" name="picture"><br>
+<h2>Social Media Accounts</h2>
+<p>facebook</p>
+<input type="text" name="facebook" placeholder="type here">
+
+<p>Tweeter</p>
+<input type="text" name="tweeter" placeholder="type here">
+
+<p>Instagram</p>
+<input type="text" name="instagram" placeholder="type here">
+
+</div>
+</form>
+</div>
+
+
+<div>
+<a href="http://facebook.com" target="blank">facebook </a><br>
+<a href="http://index.html">html </a><br>
+</div>
+
+
+</body>
+</html>

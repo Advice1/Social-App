@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>CPUT</title>
+<link rel="stylesheet" type="text/css" href="ProfessionalServiceReg.css">
+</head>
+<body>
+<div class="login_dialogue">
+
+
+    <a href="./UpdatingServiceDetails">BACK</a>
+
+<h3>update service</h3>
+
+<form action="./UpdateServiceDetailsUser" method="post" enctype="multipart/form-data">
+
+
+
+<p>Name</p>
+<input type="text" name="name" required> 
+
+
+<p>Service Offered</p>
+<input type="text"  name="service" required>
+
+
+
+
+<p>Town</p> 
+<input type="text"  name="town" required><br>
+
+<p>Building</p>
+<input type="text"  name="building" required>
+
+<p>Building No</p>
+<input type="text"  name="buildingNo" pattern="[0-9]*"> 
+
+<p>Description</p>
+<textarea name="description"></textarea>
+
+<p>product picture</p>
+<input type="file"  name="picture" required> <br>
+
+<input type="submit" value="Update"><br>
+
+
+</form>
+
+</div>
+
+</body>
+</html>

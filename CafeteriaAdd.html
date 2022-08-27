@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>CPUT</title>
+<link rel="stylesheet" type="text/css" href="ProfessionalServiceReg.css">
+</head>
+<body>
+
+<nav>
+<a href="StuffMainMenu.html">MENU</a>
+</nav>
+<br>
+
+<div class="login_dialogue">
+
+
+<h2>professional service</h2>
+
+<form action="./StaffService_Registration" method="post" enctype="multipart/form-data">
+
+
+
+<p>Product Name</p>
+<input type="text" name="name" required pattern="[A-Za-z]+">
+
+<p>Prize</p>
+<input type="text" name="prize" required pattern="([0-9]+[.])?[0-9]*"> 
+
+<p>Location</p> 
+<input type="text" name="town" required pattern="[A-Za-z]+"><br>
+
+<p>Building</p>
+<input type="text" name="building" required pattern="[A-Za-z]+[ ,']*"> 
+
+<p>Building No</p>
+<input type="text" name="buildingNo" required pattern="[0-9]*">
+
+<p>Description</p>
+<textarea name="description"></textarea>
+
+<p>product picture</p>
+<input type="file" name="picture" required> 
+
+<input type="submit" value="ADD" name="action"><br>
+
+
+</form>
+
+</div>
+
+</body>
+</html>

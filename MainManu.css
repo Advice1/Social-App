@@ -1,0 +1,167 @@
+@charset "ISO-8859-1";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+box-sizing: border-box;
+}
+
+.Main_Manu{
+ // background: url(manu.png) no-repeat center;
+  background: url(manu.png);
+  background-size: cover;
+  background-position:center;
+  background-attachment:fixed;
+  padding: 40px 0;
+
+
+}
+/* heading style */
+.Main_Manu h1{
+  text-align: center;
+  color: #ddd;
+}
+/* class which contain the upper list */
+.TOP_NAV_BAR
+{
+position:absolute;
+top:0%;
+left:0%;
+float:left;
+list-style:none;
+color:white;
+background-image:url(manu.png);
+background-size:cover;
+
+}
+.TOP_NAV_BAR li
+{
+display:inline-block;
+width:130px;
+margin:15px;
+padding:15px;
+}
+.TOP_NAV_BAR li a
+{
+text-decoration:none;
+color:white;
+font-family:san-serif;
+font-size:13px;
+}
+.TOP_NAV_BAR li:hover
+{
+background:rgba(0,100,0,0.5)
+}
+
+.border{
+  width: 400px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.Manu_List{
+  border:1px solid #fff;
+  max-width: 400px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: auto;
+}
+.Manu_List  li a
+{
+text-decoration:none;
+color:white;
+ont-family:san-serif;
+font-size:20px;
+
+}
+
+
+.Manu_List  li:hover{
+  background:rgba(0,100,0,0.5)
+}
+/* nevigation manu*/
+.Prof_list 
+{
+	display:none;
+	
+}
+
+.Manu_List  li:hover .Prof_list 
+{
+	display:block;
+        position: absolute;
+	background:rgba(0,0,0,250);
+	margin-top:0px;
+	margin-right:50px;   
+} 
+.Manu_List  li:hover .Prof_list ul
+{
+	display:block;
+	margin:15px;
+} 
+.Manu_List  li:hover .Prof_list ul li{
+width:150px;
+padding:10px;
+border-bottom: 1px dotted white;
+background: transparent;
+border-radius:0;
+text-align:right;
+}
+.Manu_List  li:hover .Prof_list ul li:hover
+{
+background:rgb(0,100,0);
+}
+/*pop update password styling*/
+/*update password*/
+.overlay
+{
+
+display:none;
+width:100%px;
+height:50px;
+align-items:center;
+justify-content:center;
+
+
+}
+.btn
+{
+position:absolute;
+left:92%;
+top:8%;
+transform:translate(-50%,-50%);
+padding:10px;
+}
+
+.body p{
+font-weight:bold;
+color:white;
+}
+.overlay.open
+{
+display:flex;
+animation:show-overlay 0.5s;
+}
+
+.login
+{
+padding:50px 25px;
+background:blue;
+border-radius:10px;
+}
+.header
+{
+position:relative;
+}
+
+.body input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:lightblue;
+color:#fff;
+font-size:18px;
+border-radius:10px;
+}

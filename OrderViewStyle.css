@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+body
+{
+margin:0;
+padding:0;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Service.jpg);
+background-size:cover;
+background-position:center;
+font-family:Arial;
+color:#fff;
+}
+nav{
+overflow:hidden;
+background:lightblue;
+line-height:30px;
+}
+nav a
+{
+float:left;
+display:block;
+width:100px;
+text-align:center;
+padding:18px 20px;
+text-decoration:none;
+font-size:16px;
+text-transform:uppercase;
+font-weight:700;
+color:#fff;
+
+}
+nav a:hover{
+background:#ddd;
+color:#000;
+}
+nav input[type=text]
+{
+float:right;
+padding:16px;
+border:none;
+margin-top:30px;
+margin-right:80px;
+font-size:17px;
+border-radius:100px;
+outline:none;
+
+}
+
+
+table{
+width:800px;
+margin:auto;
+background:lightblue;
+}
+
+td{
+border-right:4px solid blue;
+border-bottom:4px solid black;
+background:rgba(0,200,0,0.5);
+padding:3px 3px 12px 6px;
+color:#4f6b72;
+
+}
+/*pop manage oder styling*/
+.overlay
+{
+
+display:none;
+width:100%px;
+height:30px;
+align-items:center;
+justify-content:center;
+
+
+}
+.btn
+{
+position:absolute;
+left:90%;
+top:15%;
+transform:translate(-50%,-50%);
+padding:10px;
+}
+
+.form_body p{
+font-weight:bold;
+color:white;
+
+}
+.overlay.open
+{
+display:flex;
+animation:show-overlay 0.5s;
+}
+
+.form_display
+{
+padding:50px 25px;
+position:absolute;
+left:50%;
+top:40%;
+background:rgba(250,0,0,0.5);
+width:210px;
+height:60px;
+
+
+}
+
+
+.form_body input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:orange;
+color:#fff;
+font-size:18px;
+
+}

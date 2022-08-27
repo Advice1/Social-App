@@ -1,0 +1,71 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: san-serif;
+background: url(Service.jpg);
+background-size:cover;
+background-attachment:fixed;
+
+}
+.login_dialogue
+{
+width:380px;
+height:570px;
+
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform: translate(-50%,-50%);
+padding:70px 30px;
+}
+
+.login_dialogue p{
+font-weight:bold;
+color:black;
+}
+.styling_text{
+margin: 8px 0;
+padding: 8px 0;
+width:280px;
+overflow:hidden;
+font-size: 20px;
+border-bottom: 1px solid blue;
+}
+.login_dialogue input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#1c8adb;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+nav{
+overflow:hidden;
+background:lightblue;
+line-height:30px;
+}
+nav a
+{
+float:left;
+display:block;
+width:100px;
+text-align:center;
+padding:18px 20px;
+text-decoration:none;
+font-size:16px;
+text-transform:uppercase;
+font-weight:700;
+color:#fff;
+
+}
+nav a:hover{
+background:#ddd;
+color:#000;
+}
+
+
+

@@ -1,0 +1,154 @@
+body
+{
+margin:0;
+padding:0;
+background: url(Resturant1.png);
+background-size:cover;
+background-attachment:fixed;
+font-family:Arial;
+color:#fff;
+}
+nav{
+overflow:hidden;
+background:lightblue;
+line-height:30px;
+}
+nav a
+{
+float:left;
+display:block;
+width:100px;
+text-align:center;
+padding:18px 20px;
+text-decoration:none;
+font-size:16px;
+text-transform:uppercase;
+font-weight:700;
+color:#fff;
+
+}
+nav a:hover{
+background:#ddd;
+color:#000;
+}
+nav input[type=text]
+{
+float:right;
+padding:16px;
+border:none;
+margin-top:30px;
+margin-right:80px;
+font-size:17px;
+border-radius:100px;
+outline:none;
+
+}
+
+
+table{
+width:909px;
+margin:auto;
+background:white;
+}
+
+td{
+border-right:1px solid blue;
+border-bottom:4px solid black;
+background:white;
+padding:3px 3px 6px 6px;
+color:#4f6b72;
+
+}
+img
+{
+width:880px;
+height:400px;
+radius:10px;
+border-radius:20px;
+}
+
+.login_dialogue input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:lightblue;
+color:#fff;
+font-size:18px;
+
+}
+
+a:hover
+{
+background:#ddd;
+color:#000;
+
+}
+/*update password*/
+.overlay
+{
+
+display:none;
+width:100%px;
+height:50px;
+align-items:center;
+justify-content:center;
+
+
+
+}
+
+.form_body p{
+font-weight:bold;
+color:black;
+}
+.overlay.open
+{
+display:flex;
+animation:show-overlay 0.5s;
+}
+
+.form_display
+{
+padding:50px 25px;
+
+border-radius:10px;
+position:absolute;
+left:50%;
+top:30%;
+background:rgba(250,0,0,0.5);
+width:340px;
+height:360px;
+color:#fff;
+
+}
+
+.btn
+{
+position:fixed;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+padding:10px;
+background:lightblue;
+}
+
+.form_body input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#1c8adb;
+color:#fff;
+border-radius:20px;
+font-size:18px;
+
+}
+
+textarea{
+height:14%;
+background:white;
+//background:rgba(150,0,0,0.5);
+width:280px;
+}
+

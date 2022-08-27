@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <html>
+   
+  <head>
+  <meta charset="utf-8">
+    <title>MAIN MANU</title>
+    <link rel="stylesheet" href="MainManu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <div class="Main_Manu">
+    
+    <ul class="TOP_NAV_BAR" > 
+    		  <li><a href="./StaffProductDetails">STORE</a> </li>
+    		   </ul>");
+    
+    <h1>Menu</h1>
+    
+    <div class="border"></div>
+   
+				    <ul class="Manu_List" >
+				    <li ><a href="WelcomePage.html">HOME</a></li>
+				    <li><a href="CafeteriaAdd.html">ADD MORE</a> </li>
+				    <li> <a href="./StaffProductDetails">STORE</a>  </li>
+				    <li><a href="#">ABOUT</a></li>
+				    </ul></div>
+				    
+				    <button class="btn" onclick="toggleLogin()">Password</button>
+				    <div class="overlay">
+				    
+				    <div class="login">
+				    <div class="header">
+				    <h3>update Password</h3>
+				    </div>
+				    <div class="body">
+				    <form action="UpdatePassword.jsp">
+				    <p>password</p> 
+				    <input type="password" placeholder="upadate here" name="password"><br>
+				    <input type="submit" value="update" ><br>
+				    </form>
+				    </div>
+				    </div>
+				    </div>
+				    
+    </body>
+    
+    
+     <script>
+				    function toggleLogin(){document.querySelector(".overlay").classList.toggle("open");}
+ </script>
+    
+   </html>

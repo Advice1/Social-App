@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Register Service</title>
+<link rel="stylesheet" type="text/css" href="ProfessionalServiceReg.css">
+</head>
+<body>
+<div class="login_dialogue">
+
+<a href="MainMenu.html">BACK</a>
+
+<h3>PROFESSIONAL SERVICE</h3>
+
+<form action="./ServiceRegistrationProcessor" enctype="multipart/form-data" method="post" >
+
+<p>Service Provider</p>
+<input type="text" name="name" required >
+
+<p>Service Offered</p>
+<input type="text" name="service" required pattern="[A-Za-z]+">
+
+<p>Prize</p>
+<input type="text" name="prize" required pattern="[+-]?([0-9]+[.])?[0-9]*">
+
+<p>Town</p> 
+<input type="text" name="town" required pattern="[A-Za-z]+"><br>
+
+<p>Building Name</p>
+<input type="text" name="building" required pattern="[A-Za-z]+">
+
+<p>Building No</p>
+<input type="text" name="buildingNo" pattern="[0-9]*">
+ 
+<p>Description</p>
+<textarea name="description"></textarea>
+ 
+<p>product picture</p>
+<input type="file" name="picture" required><br>
+ 
+<input type="submit" value="Register" name="action"><br>
+
+
+</form>
+
+</div>
+
+</body>
+</html>
